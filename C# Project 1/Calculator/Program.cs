@@ -56,13 +56,14 @@ using System.Security.Cryptography.X509Certificates;
 
             }
 
+
             if (validOperation)
             {
                 Console.WriteLine($"El resultado de {r1} {op} {r2} es: {resultado}");
             }
 
             Console.WriteLine("Desea Realizar otra operacion?  (si/no) ");
-            
+
             if (Console.ReadLine()?.ToLower() != "si")
             {
                 break;
